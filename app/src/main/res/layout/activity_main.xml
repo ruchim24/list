@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@id/person1"
         android:layout_marginLeft="138dp"
-        android:text="David"
+        android:text="Name:David"
         android:textSize="25sp"
         android:textColor="#000"></TextView>
 
@@ -34,7 +34,7 @@
 
         android:layout_marginLeft="138dp"
         android:layout_marginBottom="-29dp"
-        android:text="Life is good"
+        android:text="Catphrase:Life is good"
         android:textColor="#000"
         android:textSize="15sp"></TextView>
 </RelativeLayout>
@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_alignLeft="@id/person2"
             android:layout_marginLeft="138dp"
-            android:text="Susie"
+            android:text="Name:Susie"
             android:textSize="25sp"
             android:textColor="#000"></TextView>
 
@@ -64,7 +64,7 @@
 
             android:layout_marginLeft="138dp"
             android:layout_marginBottom="-29dp"
-            android:text="Life is good"
+            android:text="Catphrase:Life is good"
             android:textColor="#000"
             android:textSize="15sp"></TextView>
     </RelativeLayout>
@@ -113,7 +113,7 @@
             android:layout_height="wrap_content"
             android:layout_alignLeft="@id/person4"
             android:layout_marginLeft="138dp"
-            android:text="Alice"
+            android:text="Name:Alice"
             android:textSize="25sp"
             android:textColor="#000"></TextView>
 
@@ -124,7 +124,7 @@
 
             android:layout_marginLeft="138dp"
             android:layout_marginBottom="-29dp"
-            android:text="Life is good"
+            android:text="Catphrase:Life is good"
             android:textColor="#000"
             android:textSize="15sp"></TextView>
     </RelativeLayout>
@@ -143,7 +143,7 @@
             android:layout_height="wrap_content"
             android:layout_alignLeft="@id/person5"
             android:layout_marginLeft="138dp"
-            android:text="True"
+            android:text="Name:True"
             android:textSize="25sp"
             android:textColor="#000"></TextView>
 
@@ -154,7 +154,7 @@
 
             android:layout_marginLeft="138dp"
             android:layout_marginBottom="-29dp"
-            android:text="Life is good"
+            android:text="Catphrase:Life is good"
             android:textColor="#000"
             android:textSize="15sp"></TextView>
     </RelativeLayout>
