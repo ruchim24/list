@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="3dp">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/person1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/person"></ImageView>
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/person1"
+        android:layout_marginLeft="138dp"
+        android:text="David"
+        android:textSize="25sp"
+        android:textColor="#000"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/name1"
+
+        android:layout_marginLeft="138dp"
+        android:layout_marginBottom="-29dp"
+        android:text="Life is good"
+        android:textColor="#000"
+        android:textSize="15sp"></TextView>
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/person2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/person"></ImageView>
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/person2"
+            android:layout_marginLeft="138dp"
+            android:text="Susie"
+            android:textSize="25sp"
+            android:textColor="#000"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/name2"
+
+            android:layout_marginLeft="138dp"
+            android:layout_marginBottom="-29dp"
+            android:text="Life is good"
+            android:textColor="#000"
+            android:textSize="15sp"></TextView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/person3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/person"></ImageView>
+
+        <TextView
+            android:id="@+id/name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/person3"
+            android:layout_marginLeft="138dp"
+            android:text="Harry"
+            android:textSize="25sp"
+            android:textColor="#000"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/name3"
+
+            android:layout_marginLeft="138dp"
+            android:layout_marginBottom="-29dp"
+            android:text="Life is good"
+            android:textColor="#000"
+            android:textSize="15sp"></TextView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/person4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/person"></ImageView>
+
+        <TextView
+            android:id="@+id/name4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/person4"
+            android:layout_marginLeft="138dp"
+            android:text="Alice"
+            android:textSize="25sp"
+            android:textColor="#000"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/name4"
+
+            android:layout_marginLeft="138dp"
+            android:layout_marginBottom="-29dp"
+            android:text="Life is good"
+            android:textColor="#000"
+            android:textSize="15sp"></TextView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/person5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/person"></ImageView>
+
+        <TextView
+            android:id="@+id/name5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/person5"
+            android:layout_marginLeft="138dp"
+            android:text="True"
+            android:textSize="25sp"
+            android:textColor="#000"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/name5"
+
+            android:layout_marginLeft="138dp"
+            android:layout_marginBottom="-29dp"
+            android:text="Life is good"
+            android:textColor="#000"
+            android:textSize="15sp"></TextView>
+    </RelativeLayout>
+</LinearLayout>
